@@ -1,3 +1,4 @@
+body{background-color: black;}
 
 .colorFondoCentradoTexto{
     background-color: black;
@@ -12,4 +13,16 @@ background-color: aqua;
 .lineaBlocke{
     display: inline-block;
     text-align: center;
+}
+
+#largoTarjetas div img{
+height: 75%;
+}
+.anchoContenedorTarjetas{
+    width: 100%;
+}
+.textoh4Formulario{
+    text-align: left;
+    margin-left: 1%;
+    font-size: 1rem;
 }
