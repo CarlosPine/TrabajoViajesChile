@@ -1,0 +1,15 @@
+
+.colorFondoCentradoTexto{
+    background-color: black;
+    text-align: center;
+    color: #FFFF;
+}
+
+.colorAreaFontAwesome{
+background-color: aqua;
+}
+
+.lineaBlocke{
+    display: inline-block;
+    text-align: center;
+}
