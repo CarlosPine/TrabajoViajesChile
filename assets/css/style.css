@@ -1,28 +1,48 @@
-body{background-color: black;}
+.fuenteStyle{
+    font-family: "Edu NSW ACT Foundation";
+    font-optical-sizing: auto;
+    font-weight: 16px;
+    font-style: normal !important;
+}
 
-.colorFondoCentradoTexto{
+body {
     background-color: black;
+}
+
+.header {
+    width: 100%;
+}
+
+.fondoCentradoTexto {
     text-align: center;
     color: #FFFF;
 }
 
-.colorAreaFontAwesome{
-background-color: aqua;
+.colorAreaFontAwesome {
+    background-color: aqua;
 }
 
-.lineaBlocke{
+.lineaBlocke {
     display: inline-block;
     text-align: center;
 }
 
-#largoTarjetas div img{
-height: 75%;
+#largoTarjetas div img {
+    height: 75%;
 }
-.anchoContenedorTarjetas{
+
+.anchoContenedorTarjetas {
     width: 100%;
 }
-.textoh4Formulario{
+
+
+.textoh4Formulario {
     text-align: left;
     margin-left: 1%;
     font-size: 1rem;
+}
+
+.areaBotonCorreo{
+    width: 10%;
+    
 }
