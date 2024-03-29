@@ -1,3 +1,4 @@
-document.getElementById('enviarCorreo').onclick = function () {
+document.getElementById('enviarFormulario').onclick = function () {
     alert("El correo fue enviado correctamente");
 }
+

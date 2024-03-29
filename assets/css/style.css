@@ -13,6 +13,10 @@ body {
     width: 100%;
 }
 
+.altoCarrusel{
+    height: 75%;
+}
+
 .fondoCentradoTexto {
     text-align: center;
     color: #FFFF;
@@ -44,5 +48,19 @@ body {
 
 .areaBotonCorreo{
     width: 10%;
-    
+
+}
+.areaColorFooter{
+    background-color: aqua;
+    color: #FFFF;
+    height: 5rem;
+
+}
+
+.anchoAreaFontAwesomeFooter{
+    width: 100%;
+}
+
+.anchoFooterAwesome{
+    width: 8rem;
 }

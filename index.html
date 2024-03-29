@@ -16,7 +16,7 @@
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/76c5a33da4.js" crossorigin="anonymous"></script>
     <!-- Mi js -->
-    <script src="./assets/js/script.js"></script>
+
     <!-- css -->
     <link rel="stylesheet" href="./assets/css/style.css">
     <!-- Link mi repertorio GitHub -->
@@ -28,14 +28,15 @@
 <body>
     <header class="header">
         <nav class="navbar fixed-top navbar-expand-lg " data-bs-theme="dark">
-            <a class="navbar-brand ms-5 fuenteStyle" href=""><img src="./assets/img/viajes.svg" alt="" style="width: 5%;">Viajes
+            <a class="navbar-brand ms-5 fuenteStyle" href=""><img src="./assets/img/viajes.svg" alt=""
+                    style="width: 5%;">Viajes
                 Chile</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav  ms-auto">
                     <li class="nav-item">
                         <a class="nav-link fuenteStyle" href="#">Inicio<span class="sr-only">(current)</span></a>
                     </li>
@@ -63,7 +64,7 @@
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
                         aria-label="Slide 3"></button>
                 </div>
-                <div class="carousel-inner" id="sectionNav">
+                <div class="carousel-inner altoCarrusel">
                     <div class="carousel-item active ">
                         <img src="./assets/img/carousel1.jpg" class="d-block w-100" alt="...">
                     </div>
@@ -98,13 +99,17 @@
                         <i class="fa-solid fa-plane my-3 "></i>
                     </div>
                     <div class="card-body">
-                        bueno esta es una de las areas de texto descriptivo llamado nosotros
+                        <p>
+                            bueno esta es una de las areas de texto descriptivo llamado nosotros
+                        </p>
                     </div>
                 </div>
 
                 <div class="card text-bg-dark col mx-2" style="width: 10rem;">
                     <div class="card-body">
-                        asgndashjdghjkasgdajsgjdklgaidawhduiajhdluniamldauwhdo7qyn78q3trb6q328trb76387r
+                        <p>
+                            asgndashjdghjkasgdajsgjdklgaidawhduiajhdluniamldauwhdo7qyn78q3trb6q328trb76387r
+                        </p>
                     </div>
 
                     <div class="colorAreaFontAwesome">
@@ -117,7 +122,8 @@
                     </div>
 
                     <div class="card-body">
-                        wquinyqn7wync7823cbur7823ybrc32ynor987263cboyr9c832byo9rc8ny293rycn2o98rco32r </div>
+                        <p> wquinyqn7wync7823cbur7823ybrc32ynor987263cboyr9c832byo9rc8ny293rycn2o98rco32r</p>
+                    </div>
                 </div>
 
             </div>
@@ -162,7 +168,7 @@
                 <h2 class="my-3 fuenteStyle">Contacto</h2>
             </div>
 
-            <div>
+            <div class="mx-4">
                 <h4 class="textoh4Formulario">Nombre</h4>
                 <div class="form-floating mb-4">
                     <input type="text" class="form-control" id="floatingInputDisabled" placeholder="Nombre">
@@ -180,13 +186,30 @@
                         style="height: 100px"></textarea>
                     <label for="floatingTextarea2Disabled">Comparte Tus Comentarios</label>
                 </div>
-                <div class="me-auto areaBotonCorreo ">
-                    <button id="enviarCorreo" class="dimensionesBotonTool btn btn-info" title="Presiona para enviar a tu correo">Enviar
-                        por Correo</button>
-                </div>
             </div>
         </section>
+
+        <div class="me-auto areaBotonCorreo ">
+            <button id="enviarFormulario" class="btn btn-info ms-4 mb-3"
+                title="Presiona para enviar tu formulario">Enviar
+                Formulario</button>
+
+        </div>
     </main>
+    <footer class="row areaColorFooter">
+        <div class="col ms-5 my-auto">
+            <h2>Viajes Chile</h2>
+        </div>
+        <div class="col mx-auto my-auto">
+            <div class="row anchoAreaFontAwesomeFooter">
+                <div class=" anchoFooterAwesome"><i class="fa-brands fa-github" ></i></div>
+                <div class=" anchoFooterAwesome"><i class="fa-brands fa-invision"></i></div>
+                <div class=" anchoFooterAwesome"><i class="fa-brands fa-twitter"></i></div>
+                <div class=" anchoFooterAwesome"><i class="fa-brands fa-square-facebook"></i></div>
+            </div>
+
+        </div>
+    </footer>
 
 
 
@@ -200,6 +223,8 @@
         crossorigin="anonymous"></script>
     <!-- script jquery -->
     <script src="./assets/js/jquery.js"></script>
+    <!-- misjs -->
+    <script type="text/JavaScript" src="./assets/js/script.js"></script>
 
 </body>
 
