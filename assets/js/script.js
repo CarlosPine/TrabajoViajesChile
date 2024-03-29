@@ -1,5 +1,5 @@
 document.getElementById('enviarFormulario').onclick = function () {
-    alert("El correo fue enviado correctamente");
+    alert("El Formulario se entrego correctamente");
 }
 
 
