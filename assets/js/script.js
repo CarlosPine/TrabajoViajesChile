@@ -27,3 +27,8 @@ document.getElementById("varicolor2").addEventListener("dblclick", function () {
 document.getElementById("varicolor3").addEventListener("dblclick", function () {
     this.style.backgroundColor = "aqua";
 });
+
+$("#botonToggle").click(function(){
+    $(".tog").toggleClass("activaToggle");
+    console.log("click")
+})
